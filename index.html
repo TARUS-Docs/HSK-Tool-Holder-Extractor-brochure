@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARUS Zero-Impact HSK Extractor Tools</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+        
+        .page-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        .claymill-heading {
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            color: #000000;
+        }
+
+        .claymill-btn {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: #ffffff;
+            background-color: #000000;
+            padding: 10px 24px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 0.5rem;
+            border: 1px solid #000000;
+            transition: all 0.2s ease;
+        }
+        
+        .claymill-btn:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .nav-link.active {
+            border-bottom: 1px solid #000000;
+            padding-bottom: 2px;
+        }
+
+        @media print {
+            body { background-color: white; }
+            .page-container { max-width: 100%; width: 100%; }
+            .no-print { display: none; }
+            /* Reduced margins to maximize page real estate */
+            @page { margin: 0.2in 0; size: letter portrait; }
+            .print-pad { padding: 0 40px !important; }
+            .print-break-avoid { page-break-inside: avoid; }
+            
+            /* Clean outline button for PDF - guaranteed visible text */
+            .claymill-btn {
+                background-color: transparent !important;
+                color: #000000 !important;
+                border: 1.5px solid #000000 !important;
+                padding: 6px 14px !important;
+                font-weight: 800 !important;
+            }
+        }
+    </style>
+</head>
+<body class="print:m-0">
+
+    <div class="max-w-4xl mx-auto py-2 text-center bg-gray-100 border-b border-gray-200 no-print">
+        <p class="text-sm text-gray-600">💡 <strong>Pro Tip:</strong> Press <kbd class="bg-white border border-gray-300 px-2 py-0.5 rounded text-xs shadow-sm">Ctrl+P</kbd> to save as PDF.</p>
+    </div>
+
+    <div class="page-container flex flex-col min-h-screen relative">
+        
+        <header class="flex justify-between items-center py-6 print:py-2 px-12 print-pad border-b border-gray-200 bg-white sticky top-0 z-50">
+            <a href="https://claymill.com/" class="flex items-center">
+                <!-- Shrunk logo height for print -->
+                <img src="TARUS-Logo BW-small.png" alt="TARUS Logo" class="h-10 print:h-6 w-auto object-contain">
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 text-[10px] font-bold tracking-[0.15em] text-black uppercase">
+                <a href="https://claymill.com/" class="hover:text-gray-500">HOME</a>
+                <a href="https://claymill.com/machines/" class="nav-link active">MACHINES</a>
+                <a href="https://claymill.com/solutions/" class="hover:text-gray-500">SOLUTIONS</a>
+                <a href="https://claymill.com/about/" class="hover:text-gray-500">ABOUT</a>
+                <a href="https://claymill.com/contact/" class="hover:text-gray-500">CONTACT</a>
+            </nav>
+        </header>
+
+        <section class="px-12 py-12 print:py-4 print-pad text-center max-w-4xl mx-auto">
+            <h1 class="claymill-heading text-4xl md:text-5xl mb-6 print:mb-2 print:text-3xl">Zero-Impact Extractor Tools</h1>
+            <p class="text-gray-600 text-[15px] print:text-[12px] leading-relaxed">
+                Replace the outdated method of striking tool holders. Our new mechanical ejectors safely and smoothly remove the tool holder, preventing shock damage to the liquid-cooled spindle bearings and maintaining the critical simultaneous fit of the HSK taper.
+            </p>
+        </section>
+
+        <!-- HSK-32A Block -->
+        <!-- Switched back to items-center to eliminate vertical voids -->
+        <section class="flex flex-col md:flex-row print:flex-row items-center px-12 py-6 print:py-2 print-pad print-break-avoid">
+            
+            <!-- Image Left: Rebalanced to exactly 50% width -->
+            <div class="w-full md:w-1/2 print:w-1/2 bg-[#f4f4f4] min-h-[300px] print:min-h-[180px] print:h-[180px] flex flex-col items-center justify-center p-8 print:p-4 rounded-sm">
+                <img src="Zero-Impact HSK32A Extractor Tool.png" alt="TARUS HSK-32A Extractor Tool" class="max-w-full max-h-[350px] print:max-h-[150px] w-auto h-auto object-contain mix-blend-multiply">
+            </div>
+            
+            <!-- Text Right: Rebalanced to exactly 50% width -->
+            <div class="w-full md:w-1/2 print:w-1/2 md:pl-16 print:pl-10 mt-8 md:mt-0 print:mt-0">
+                <h2 class="claymill-heading text-3xl print:text-xl mb-4 print:mb-1">TARUS HSK-32A Extractor</h2>
+                <p class="text-[15px] print:text-[10px] text-gray-600 leading-relaxed mb-6 print:mb-2">
+                    Engineered specifically for the world’s most compact high-performance 2-axis TARUS proprietary fork-style milling head. Protects your spindle to ensure silent, precise in-studio milling.
+                </p>
+                
+                <div class="mb-4 print:mb-1">
+                    <h3 class="font-bold text-[13px] print:text-[10px] mb-1">Specifications</h3>
+                    <ul class="text-[14px] print:text-[10px] text-gray-600 space-y-1 print:space-y-0">
+                        <li><strong class="font-semibold text-gray-800">Item:</strong> 60175</li>
+                        <li><strong class="font-semibold text-gray-800">Model:</strong> TPI-2162</li>
+                        <li><strong class="font-semibold text-gray-800">Price:</strong> $550.00</li>
+                    </ul>
+                </div>
+
+                <div class="mb-2 print:mb-2">
+                    <h3 class="font-bold text-[13px] print:text-[10px] mb-1">Versions</h3>
+                    <ul class="text-[14px] print:text-[10px] text-gray-600 space-y-1 print:space-y-0">
+                        <li>Latest Generation Claymill (LCMT)</li>
+                    </ul>
+                </div>
+                
+                <a href="mailto:cmorton@tarus.com?subject=RFQ%20TARUS%20HSK-32A%20Extractor%20Tool" class="claymill-btn print:text-[8px]">ORDER TOOL</a>
+            </div>
+        </section>
+
+        <!-- HSK-40C Block -->
+        <section class="flex flex-col md:flex-row-reverse print:flex-row-reverse items-center px-12 py-6 print:py-2 print-pad print-break-avoid">
+            
+            <!-- Image Right -->
+            <div class="w-full md:w-1/2 print:w-1/2 bg-[#f4f4f4] min-h-[300px] print:min-h-[180px] print:h-[180px] flex flex-col items-center justify-center p-8 print:p-4 rounded-sm">
+                <img src="Zero-Impact HSK40C Extractor Tool.png" alt="TARUS HSK-40C Extractor Tool" class="max-w-full max-h-[350px] print:max-h-[150px] w-auto h-auto object-contain mix-blend-multiply">
+            </div>
+            
+            <!-- Text Left -->
+            <div class="w-full md:w-1/2 print:w-1/2 md:pr-16 print:pr-10 mt-8 md:mt-0 print:mt-0">
+                <h2 class="claymill-heading text-3xl print:text-xl mb-4 print:mb-1">TARUS HSK-40C Extractor</h2>
+                <p class="text-[15px] print:text-[10px] text-gray-600 leading-relaxed mb-6 print:mb-2">
+                    Built to support the advanced monocoque aluminum alloy construction of the larger Claymill series. Handles heavier tooling without compromising the spindle's unparalleled quality and durability.
+                </p>
+                
+                <div class="mb-4 print:mb-1">
+                    <h3 class="font-bold text-[13px] print:text-[10px] mb-1">Specifications</h3>
+                    <ul class="text-[14px] print:text-[10px] text-gray-600 space-y-1 print:space-y-0">
+                        <li><strong class="font-semibold text-gray-800">Spindle Type:</strong> HSK-40C</li>
+                        <li><strong class="font-semibold text-gray-800">Price:</strong> $650.00</li>
+                    </ul>
+                </div>
+
+                <div class="mb-2 print:mb-2">
+                    <h3 class="font-bold text-[13px] print:text-[10px] mb-1">Versions</h3>
+                    <ul class="text-[14px] print:text-[10px] text-gray-600 space-y-1 print:space-y-0">
+                        <li>Claymill X (rail-mounted)</li>
+                        <li>Claymill XM (mobile/portable)</li>
+                        <li>Claymill XT (taller/larger volume)</li>
+                    </ul>
+                </div>
+                
+                <a href="mailto:cmorton@tarus.com?subject=RFQ%20TARUS%20HSK-40C%20Extractor%20Tool" class="claymill-btn print:text-[8px]">ORDER TOOL</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="px-12 py-8 print:py-3 print-pad border-t border-gray-200 mt-auto flex flex-col md:flex-row print:flex-row justify-between items-center text-center md:text-left print:text-left">
+            <div class="flex items-center justify-center md:justify-start print:justify-start gap-6 print:gap-4 mb-4 md:mb-0 print:mb-0">
+                <img src="TARUS_Made-In-The-USA_ICON.png" alt="Made in the USA" class="h-14 print:h-8 object-contain">
+                <div>
+                    <span class="text-2xl print:text-lg font-black tracking-tighter block mb-1 print:mb-0">TARUS</span>
+                    <p class="text-xs print:text-[9px] text-gray-500">© 2026 TARUS. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="flex space-x-6 print:space-x-4 text-[11px] print:text-[8px] font-bold tracking-[0.15em] text-gray-400 uppercase">
+                <a href="https://claymill.com/" class="hover:text-black">CLAYMILL.COM</a>
+                <a href="https://tarus.com/" class="hover:text-black">TARUS.COM</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
